@@ -43,7 +43,7 @@ body {
   margin-right: 10px;
 }
 
-.body-container {
+.container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
@@ -67,46 +67,23 @@ body {
 }
 
 #welcome {
-  margin: 140px 50px auto;
-  padding: 30px;
-  color: #4888c8;
-  border-radius: 3px;
+  margin-top: 140px;
+  color: darkslateblue;
 }
 
-#tagline {
-  position: absolute;
-  margin-top: 492px;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  background-color: rgba(255,255,255,.9);
+#welcome-products {
+  margin-top: 30px;
+  color: darkslategray;
 }
 
-#tagline h2{
+.welcome-product i {
+  margin-right: 10px;
 }
 
-#home-options>div {
-  padding: 50px;
-}
-
-#home-sgt {
-  background-color: steelblue;
-  color: ghostwhite;
-  width: 50%;
-  text-align: left;
-}
-
-#home-sgb {
-  background-color: lightsteelblue;
-  color: #306dd6;
-  font-weight: bold;
-  width: 50%;
-  text-align: left;
-}
-
-.no-bullets
-{
-  list-style: none;
+#welcome-footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: darkslateblue;
 }
 
 
