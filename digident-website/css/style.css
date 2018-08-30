@@ -43,6 +43,10 @@ body {
   margin-right: 10px;
 }
 
+.body-container {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .row {
   margin: 0;
