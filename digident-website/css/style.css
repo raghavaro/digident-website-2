@@ -65,12 +65,12 @@ nav img {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 600px;
-  margin-top: 90px;
+  min-height: 690px;
+  margin-top: 0px;
 }
 
 #welcome {
-  margin: 50px 50px auto;
+  margin: 140px 50px auto;
   padding: 30px;
   color: #4888c8;
   border-radius: 3px;
