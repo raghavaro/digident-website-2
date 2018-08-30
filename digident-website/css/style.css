@@ -16,7 +16,7 @@ body {
   display: -webkit-flex;
   display: flex;
   flex-flow: row nowrap
-  -webkit-flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
   background-color: white;
 }
 
@@ -186,8 +186,8 @@ hr
   display: flex;
   margin-left: 100px;
   margin-right: 100px;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .container8
@@ -246,9 +246,9 @@ hr
 {
   border-radius: 5px;
   border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-left: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .about_container
@@ -297,8 +297,8 @@ hr
 
 .carousel-control-next-icon,.carousel-control-prev-icon
 {
-      position: absolute;
-    top: 150;
+  position: absolute;
+  top: 150;
 }
 
 .footer-menu
@@ -335,19 +335,19 @@ hr
 
 .about_container2 img
 {
-      min-width: 38%;
-    height: auto;
-    border-radius: 141px;
+  min-width: 38%;
+  height: auto;
+  border-radius: 141px;
   border: 1px solid #ddd;
-    padding: 10px;
-    margin-left: 20px;
-  }
+  padding: 10px;
+  margin-left: 20px;
+}
 
-  
+
 /*.copyright
 {
-  background-color: steelblue;
-  color: white; 
+background-color: steelblue;
+color: white; 
 }*/
 
 @media (max-width: 880px)
@@ -373,6 +373,6 @@ hr
 
   .about_container2
   {
-      display: block;
+    display: block;
   }
 }
