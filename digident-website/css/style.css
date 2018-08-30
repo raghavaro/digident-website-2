@@ -86,30 +86,6 @@ body {
   color: darkslateblue;
 }
 
-
-.hero-text
-{
-  margin-top: 100px;
-}
-
-#book-text-container
-{
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin-top: 100px;
-}
-
-#book-text>h2
-{
-  margin-bottom: 30px;
-}
-
-
-#book-text>p
-{
-  color: #3868a8;
-}
-
 .card
 {
   margin: 15px 0;
@@ -119,46 +95,13 @@ body {
   background-color: steelblue;
 }
 
-.card>div {
-  
-}
-
-.card p.content {
-  height: auto;
-  text-align: center;
-  width: 100%;
-  padding: 20px 15px 5px;
-  color: white;
-}
-
-.card>img
-{
-  top:0; 
-  left:0; 
-  right:0;
-  width:100%;
-  margin: 0 auto;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
 .no-underline:hover
 {
   text-decoration:none!important;
   border-bottom:0!important;
 }
 
-.container2
-{
-  padding: 20px;
-  margin: 0px 0px 0px 0px;
-  width:100vw;
-  background-color: steelblue;
-}
 
-.container2 h5 {
-  margin: 40px auto;
-}
 .content2
 {
   text-align: center;
@@ -171,15 +114,6 @@ body {
   color: white;
 }
 
-.container3
-{
-  background-color: #f5f5f5;
-  margin: 0;
-  position: absolute;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  border-top: 1px solid #4888c8 ;
-}
 
 .form-group {
   position: relative;
@@ -209,15 +143,6 @@ body {
   justify-content: center;*/
   text-align: left;
   margin-top: 100px;
-}
-
-.card2
-{
-  background: linear-gradient(to right,rgba(29, 236, 197, 0.4), rgba(17, 63, 137, 0.4)100%);
-  border: 1px solid #4888c8 ;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding: 20px;
 }
 
 hr
@@ -278,22 +203,6 @@ hr
   height: 32px;
   border-radius: 5px;
   align-items: center;
-}
-
-/*.right-item
-{
-  float: right;
-}*/
-.card3
-{
-  width: 70%;
-  background:linear-gradient(rgba(29, 236, 197,.6), rgba(17, 63, 137,.6));
-}
-
-.card3 img
-{
-  width: 400px;
-  height: auto;
 }
 
 .heading
