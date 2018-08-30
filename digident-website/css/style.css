@@ -61,7 +61,7 @@ nav img {
 
 #home {
   padding-top: 30px;
-  background-image: url('../images/backdrop-home.jpg');
+  background-image: url('../images/backdrop-home-edited.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -72,7 +72,6 @@ nav img {
 #welcome {
   margin: 50px 50px auto;
   padding: 30px;
-  background-color: rgba(255,255,255,.7);
   color: #4888c8;
   border-radius: 3px;
 }
