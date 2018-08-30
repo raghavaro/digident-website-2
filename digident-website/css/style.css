@@ -76,6 +76,11 @@ body {
   color: darkslategray;
 }
 
+.welcome-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .welcome-product i {
   margin-right: 10px;
 }
@@ -86,13 +91,25 @@ body {
   color: darkslateblue;
 }
 
-.card
+#about
 {
-  margin: 15px 0;
-  bottom: 0;
-  top:0;
-  border: none;
-  background-color: steelblue;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+#about h3 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+#about .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .no-underline:hover
@@ -251,12 +268,7 @@ hr
   margin-left: 20px;
 }
 
-.about_container
-{
-  color: ghostwhite;
-  padding: 20px;
-  background: linear-gradient(to right,steelblue, steelblue 100%)
-}
+
 
 .carousel h5
 {
@@ -310,39 +322,6 @@ hr
   color: rgba(0,0,0,.5);
   line-height: 16px;
 }
-
-
-.about_container2
-{
-  display: none;
-  color: ghostwhite;
-  padding: 20px;
-  background: linear-gradient(to right,steelblue, steelblue 100%)
-}
-
-.about_container2 h4
-{
-  font-weight: bold;
-}
-
-.about_container2 p
-{
-  /*display: block;
-  justify-content: space-between;*/
-  margin: 20px;
-}
-
-
-.about_container2 img
-{
-  min-width: 38%;
-  height: auto;
-  border-radius: 141px;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-left: 20px;
-}
-
 
 /*.copyright
 {
