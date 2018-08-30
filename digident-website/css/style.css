@@ -112,6 +112,21 @@ body {
   margin-bottom: 20px;
 }
 
+
+footer p {
+  padding: 10px;
+}
+
+.footer-menu
+{
+  display: none;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  color: rgba(0,0,0,.5);
+  line-height: 16px;
+}
+
 .no-underline:hover
 {
   text-decoration:none!important;
@@ -313,15 +328,6 @@ hr
   top: 150;
 }
 
-.footer-menu
-{
-  display: none;
-  margin-top: 8px;
-  margin-bottom: 10px;
-  list-style-type: none;
-  color: rgba(0,0,0,.5);
-  line-height: 16px;
-}
 
 /*.copyright
 {
