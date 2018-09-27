@@ -3,13 +3,14 @@
     <title>Smile Gallery Book</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light" id="main-nav">
@@ -18,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <script src="script.js"></script>
+      <script src="Scripts/script.js"></script>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -48,7 +49,12 @@
         <div class="row">
           <div class="col-11 offset-1 col-md-5">
             <img src="images/01-300.jpg" id="gallery-title-image"/>
-            <button class="btn btn-primary">Order Now</button>
+            <select class="selectpicker">
+              <option disabled selected>Select book type</option>
+              <option value="1">Soft-cover $99.00 USD</option>
+              <option value="2">Hard-cover $199.00 USD</option>
+            </select>
+            <button class="btn button btn-lg">Order Now</button>
           </div>
           <div class="col-11 offset-1 col-md-5 offset-md-0">
             <h1>Smile Gallery Book</h1>
@@ -67,28 +73,261 @@
       </div>
       <div class="row">
         <div class="col-11 offset-1">
-          <h2>Book Preview</h2>
-        </div>
-        <div class="col-12">
-        </div>
-      </div>
-      <div class="row" id="#order">
-        <div class="col-11 offset-1">
-          <h2>My Order</h2>
+          <h2 class="hero-text">Book Preview</h2>
         </div>
         <div class="col-12">
         </div>
       </div>
     </div>
+
+
+      <div class="slider-area owl-prev owl-next">
+        <div class="owl-carousel owl-theme">
+
+        <div class="card container-4">
+          <img src="images/Smile Gallery Pages/08.jpg">
+          <p class="content" class="content">Orthodontics and veneers.</p>
+        </div>
+
+      <div class="card container-4">
+          <img src="images/Smile Gallery Pages/10.jpg">
+          <p class="content" class="content">Orthodontics and veneers.</p>
+      </div>
+
+      <div class="card container-4">
+          <img src="images/Smile Gallery Pages/12.jpg">
+          <p class="content" class="content">Creating papillae and closing diastema with orthodontics  and veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/14.jpg">
+        <p class="content" class="content">Portrait view of the previous case.</p>
+      </div>
+
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/16.jpg">
+        <p class="content" class="content">No prep veneers to close spaces after orthodontics.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/18.jpg">
+        <p class="content" class="content">Repair of chipped teeth with veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/20.jpg">
+        <p class="content" class="content">Crown lengthening and veneers to correct short small teeth.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/24.jpg">
+        <p class="content" class="content">Instant orthodontics with veneers and whitening.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/26.jpg">
+        <p class="content" class="content">Correcting chips with orthodontics and veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/28.jpg">
+        <p class="content" class="content">Replacing patchwork dentistry with veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/30.jpg">
+        <p class="content" class="content">Closing diastema with 4 veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/32.jpg">
+        <p class="content" class="content">Instant orthodontics with veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/34.jpg">
+        <p class="content" class="content">Creating symmetry with veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/36.jpg">
+        <p class="content" class="content">Replacing single bonded tooth with a veneer.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/38.jpg">
+        <p class="content" class="content">Lower chips repaired with veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/40.jpg">
+        <p class="content" class="content">Crown and Bridge introduction pages.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/42.jpg">
+        <p class="content" class="content">Replacing old bridge with new a new bridge and crowns.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/44.jpg">
+        <p class="content" class="content">Restoring excessive wear.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/46.jpg">
+        <p class="content" class="content">Replacing old crowns.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/48.jpg">
+        <p class="content" class="content">Repairing excessive wear with crowns.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/50.jpg">
+        <p class="content" class="content">Comprehensive treatment including orthodontics, implants, periodontics, and crown and bridge </p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/52.jpg">
+        <p class="content" class="content">Crowns and bridges replacing missing teeth and restoring severely worn teeth.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/54.jpg">
+        <p class="content" class="content">Crowns repairing wear.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/56.jpg">
+        <p class="content" class="content">Replacing old crowns after osseous crown lengthening.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/58.jpg">
+        <p class="content" class="content">Adult orthodontics introduction page.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/60.jpg">
+        <p class="content" class="content">Aligning lower anterior teeth.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/62.jpg">
+        <p class="content" class="content">Altering the V shaped arch to a healthier U shape while correcting anterior crowding.</p>
+      </div>
+
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/64.jpg">
+        <p class="content" class="content">Closing diastema.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/68.jpg">
+        <p class="content" class="content">Correcting crowding.</p>
+      </div>
+    <div class="card container-4">
+        <img src="images/Smile Gallery Pages/78.jpg">
+        <p class="content" class="content">Correcting crowding and orhtodontically correcting tissue contour.</p>
+      </div>
+
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/72.jpg">
+        <p class="content" class="content">Implant introduction page.</p>
+      </div>
+
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/74.jpg">
+        <p class="content" class="content">Single tooth replaced with an implant, abutment, and crown.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/76.jpg">
+        <p class="content" class="content">Missing tooth replaced with a single implant. Peg lateral restored with a bonded all porcelain crown.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/78.jpg">
+        <p class="content" class="content">Missing tooth replaced with a single implant. Peg lateral restored with a bonded all porcelain crown.</p>
+      </div> 
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/80.jpg">
+        <p class="content" class="content">Single implant, crown lengthening, and 6 crowns.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/82.jpg">
+        <p class="content" class="content">Old bridges replaced after tissue contouring and augmentation with two implants and 6 individual crowns.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/84.jpg">
+        <p class="content" class="content">4 teeth replaced with 2 implants and a 4 unit bridge.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/86.jpg">
+        <p class="content" class="content">4 implants and fixed bridges replace 9 teeth.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/88.jpg">
+        <p class="content" class="content">6 implants and 3 bridges replace 12 teeth.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/90.jpg">
+        <p class="content" class="content">4 implants retain a fixed detachable hybrid full denture.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/92.jpg">
+        <p class="content" class="content">Implants retain removable full dentures with locator attachments.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/94.jpg">
+        <p class="content" class="content">Odds and Ends introduction page and whitening case.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/96.jpg">
+        <p class="content" class="content">Crown lengthening with and without veneers.</p>
+      </div>
+
+      <div class="card container-4">
+        <img src="images/Smile Gallery Pages/98.jpg">
+        <p class="content" class="content">Implant replacing traditional clasp for a partial denture.</p>
+      </div>
+
+
+      </div>
+    </div>
+    </div>
+
+
         <footer class="footer text-center">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12">
           <p class="footer-menu"><i class="fa fa-phone"></i> 954-753-9938 | <i class="fa fa-envelope"></i> email@yahoo.com</p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12">
           <p><b>&copy; 2018 Copyright Digident, LLC</b></p>
         </div>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Scripts/owl.carousel.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="Scripts/main.js"></script>
+
   </body>
 </html>
