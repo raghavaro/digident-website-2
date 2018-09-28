@@ -88,20 +88,33 @@ body {
 .owl-nav .owl-next span:hover,
 .owl-nav .owl-prev span:hover
 {
-  background-color: #fff;
+  background-color: transparent;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent !important;
 }
 
 .container-4
 {
   width: auto;
-  //min-height: 20%;
   border-radius: 10px;
   border: 1px solid rgba(0,0,0,0.2);
-  box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.5);
   margin-left: 1em;
+  margin-right: 1em;
   background-color: #fff;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
 }
+
+.container-4 .content-div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
 .container-4 img
 {
@@ -114,6 +127,10 @@ body {
   color: darkslategrey;
   padding: 5px;
 }
+
+
+
+
 
 #home {
   padding-top: 30px;
@@ -215,7 +232,6 @@ body {
   height: 32px;
   border-radius: 5px;
   align-items: center;
-  position: absolute;
   right: auto;
   top: 67%;
   left: 2%;
@@ -231,8 +247,9 @@ footer p
 
 footer
 {
-  box-shadow: 0px -5px 7px 0px rgba(0,0,0,0.3);
-  margin: 10 0 0 0;
+  
+  border-top: 1px solid lightgray;
+  margin: 50px 0 0 0;
 }
 
 .footer-menu
@@ -259,6 +276,14 @@ footer
   margin: 0;
 }
 
+@media (min-width: 600px) {
+  .container-4
+  {
+    height: 50%;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 880px)
 {
   .navbar .contact-info{
@@ -271,7 +296,7 @@ footer
   }
 }
 
-@media (max-width: 1080px)
+@media (min-width: 881px and max-width: 1080px)
 {
 
   .footer-menu
@@ -287,11 +312,12 @@ footer
 
 }
 
-
-@media (max-width: 2560px)
+@media (min-width: 1081px and max-width: 4080px)
 {
-    .container-4
-    {
-      min-height: 35%;
-    }
+  .container-4{
+    min-height: 35%;
+    height: 80%;
+  }
+
 }
+
